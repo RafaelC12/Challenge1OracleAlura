@@ -38,7 +38,6 @@ function criptografarMsg(mensagem) {
 
       var textoCodificado = mensagem;
       textoCodificado = mensagem.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat").replace(/[^a-z ]/gi,'');
-      console.log(textoCodificado);
       mensagemSaida.value = textoCodificado;
 
     }
@@ -60,7 +59,6 @@ function descriptografarMsg(mensagem) {
 
       var textoDescodificado = mensagem;
       textoDescodificado = mensagem.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u").replace(/[^a-z ]/gi,'');
-      console.log(textoDescodificado);
       mensagemSaida.value = textoDescodificado;
 
     }
