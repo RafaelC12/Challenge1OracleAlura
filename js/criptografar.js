@@ -1,14 +1,14 @@
 var botaoCriptografar = document.querySelector("#cripto");
 var botaoDescriptografar = document.querySelector("#descripto");
 var botaoCopiar = document.querySelector("#copiar");
-var mensagemSaida = document.querySelector("#saida");
+var mensagemSaida = document.querySelector(".saida");
 
 //criptografar mensagem//
 botaoCriptografar.addEventListener("click", function(evento) {
 
   evento.preventDefault();
 
-  var mensagem = document.querySelector('#mensagem').value;
+  var mensagem = document.querySelector('.mensagem').value;
   var mensagemCodificada = criptografarMsg(mensagem);
 
 });
@@ -18,7 +18,7 @@ botaoDescriptografar.addEventListener("click", function(evento) {
 
   evento.preventDefault();
 
-  var mensagem = document.querySelector('#mensagem').value;
+  var mensagem = document.querySelector('.mensagem').value;
   var mensagemDescodificada = descriptografarMsg(mensagem);
 
 });

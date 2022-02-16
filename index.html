@@ -1,55 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--título da página-->
+
   <head>
     <meta charset="UTF-8">
     <title>criptografando</title>
 
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
     <header>
       <section class="titulos">
-        <div class="titulos" id="titulo-1">
+        <div class="titulo-1">
           <h1>CRIPTÓGRAFO</h1>
         </div>
-        <div class="titulos" id="sub-titulo">
+        <div class="sub-titulo">
           <h2>Codifique suas mensagens e mantenha suas conversas em segredo!</h2>
         </div>
       </section>
     </header>
     <main>
-        <!--campo para texto que vai ser criptografado/descriptografado-->
-      <section class="area-de-texto" id="area-criptografia">
-        <section name="texto-de-entrada">
-          <textarea id="mensagem" cols="40" rows="8" placeholder="Digite a sua mensagem aqui" style="font-size: 28px"></textarea>
-        </section>
+      <!--campo para texto que vai ser criptografado/descriptografado-->
+      <div class="area-criptografia">
+        <textarea class="mensagem" cols="40" rows="8" placeholder="Digite a sua mensagem aqui"></textarea>
         <!-- área para exibir o texto resultante -->
-        <section name="texto-de-saida" id="text-result">
-            <!-- conteúdo criptografado/descriptografado -->
-          <textarea cols="20" rows="10" readonly style="font-size: 28px" id="saida"></textarea>
-        </section>
-      </section>
-        <!--botões para fazer criptografia/descriptografia-->
+        <textarea cols="15" rows="10" class="saida" readonly></textarea>
+      </div>
+      <!--botões para fazer criptografia/descriptografia-->
       <section class="botoes">
-        <button type="button" name="criptografar" id="cripto">criptografar</button>
-        <button type="button" name="descriptografar" id="descripto">descriptografar</button>
-        <button type="button" name="copiar" id="copiar">copiar</button>
+        <button type="button" name="criptografar" id="cripto">Criptografar</button>
+        <button type="button" name="descriptografar" id="descripto">Descriptografar</button>
+        <button type="button" name="copiar" id="copiar">Copiar</button>
       </section>
     </main>
     <footer>
       <label for="dados-do-desenvolvedor">
-        Desenvolverdor:
+        Desenvolvedor:
       <label>
-      <section class="dados" name="dados-do-desenvolvedor" id="dados-do-desenvolvedor">
-        <span class="dados" name="nome" id="nome">Rafael Chagas</span>
-        <label for="email">/e-mail: </label>
-        <span class="dados" name="email" id="email">rafaelcchagas@outlook.com</span>
-      </section>
+        <section class="dados" name="dados-do-desenvolvedor" id="dados-do-desenvolvedor">
+          <span class="dados" name="nome" id="nome">Rafael Chagas</span>
+          <label for="email">/e-mail: </label>
+          <span class="dados" name="email" id="email">rafaelcchagas@outlook.com</span>
+        </section>
     </footer>
     <script src="js/criptografar.js"></script>
   </body>
+
 </html>

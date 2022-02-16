@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+  background-image: url("logo.png");
+}
+
+header {
+  align-content: center;
+  width: 100%;
+  height: 125px;
+  text-align: center;
+  background-image:url("header-background.jpg");
+  color: white;
+  border: 10px solid black;
+  padding: 20px 0px;
+}
+
+.titulo-1 {
+  font-size: 32px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.sub-titulo {
+  font-size: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.area-criptografia {
+  display: inline-flex;
+  width: 80%;
+  align-items: center;
+  position: relative;
+  margin: 35px 10%;
+}
+
+.mensagem {
+  width: 65%;
+  height: 275px;
+  border-style: outset;
+  border-color: darkblue;
+  border-width: 10px;
+  padding: 0;
+  font-size: 24px;
+}
+
+.saida{
+  width: 30%;
+  height: 400px;
+  border-style: outset;
+  border-color: darkblue;
+  border-width: 10px;
+  cursor: auto;
+  margin: 0 25px;
+  font-size: 24px;
+}
+
+.botoes {
+  display: inline-block;
+  width: 80%;
+  align-items: center;
+  margin: 0 10%;
+}
+
+#cripto{
+  background-color: black;
+  color: white;
+  width: 105px;
+  height: 50px;
+  font: bold 15px arial,sans-serif;
+  border-color: white;
+  cursor: pointer;
+  position: relative;
+  bottom: 85px;
+}
+
+#descripto{
+  background-color: black;
+  color: white;
+  width: 130px;
+  height: 50px;
+  font: bold 15px arial,sans-serif;
+  border-color: white;
+  cursor: pointer;
+  position: relative;
+  bottom: 85px;
+  margin-left: 10px;
+}
+
+#copiar{
+  background-color: black;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+  font: bold 15px arial, sans-serif;
+  width: 80px;
+  height: 50px;
+  position:relative;
+  left: 42%;
+  bottom: 25px;
+}
+
+footer {
+  color: white;
+  text-align: right;
+  background-color: inherit;
+  margin: 10px;
