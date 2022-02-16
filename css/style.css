@@ -17,17 +17,17 @@ header {
   background-image:url("header-background.jpg");
   color: white;
   border: 10px solid black;
-  padding: 20px 0px;
+  padding: 15px 0px;
 }
 
 .titulo-1 {
-  font-size: 32px;
+  font-size: 38px;
   margin-bottom: 5px;
   padding: 5px;
 }
 
 .sub-titulo {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 textarea {
@@ -70,7 +70,7 @@ textarea {
   margin: 0 10%;
 }
 
-#cripto{
+.cripto{
   background-color: black;
   color: white;
   width: 105px;
@@ -82,7 +82,7 @@ textarea {
   bottom: 85px;
 }
 
-#descripto{
+.descripto{
   background-color: black;
   color: white;
   width: 130px;
@@ -95,7 +95,7 @@ textarea {
   margin-left: 10px;
 }
 
-#copiar{
+.copiar{
   background-color: black;
   border-color: white;
   color: white;
@@ -106,6 +106,11 @@ textarea {
   position:relative;
   left: 42%;
   bottom: 25px;
+}
+
+.botoes button:hover {
+  color: lightgreen;
+  border-color: lightgreen;
 }
 
 footer {
