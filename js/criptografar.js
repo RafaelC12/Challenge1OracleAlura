@@ -1,6 +1,6 @@
-var botaoCriptografar = document.querySelector("#cripto");
-var botaoDescriptografar = document.querySelector("#descripto");
-var botaoCopiar = document.querySelector("#copiar");
+var botaoCriptografar = document.querySelector(".cripto");
+var botaoDescriptografar = document.querySelector(".descripto");
+var botaoCopiar = document.querySelector(".copiar");
 var mensagemSaida = document.querySelector(".saida");
 
 //criptografar mensagem//
