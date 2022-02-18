@@ -6,21 +6,15 @@ var mensagemSaida = document.querySelector(".saida");
 //criptografar mensagem//
 botaoCriptografar.addEventListener("click", function(evento) {
 
-  evento.preventDefault();
-
   var mensagem = document.querySelector('.mensagem').value;
   var mensagemCodificada = criptografarMsg(mensagem);
-
 });
 
 //descriptografar mensagem//
 botaoDescriptografar.addEventListener("click", function(evento) {
 
-  evento.preventDefault();
-
   var mensagem = document.querySelector('.mensagem').value;
   var mensagemDescodificada = descriptografarMsg(mensagem);
-
 });
 
 function criptografarMsg(mensagem) {
@@ -36,10 +30,8 @@ function criptografarMsg(mensagem) {
 
     } else{
 
-      var textoCodificado = mensagem;
-      textoCodificado = mensagem.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat").replace(/[^a-z ]/gi,'');
+      var textoCodificado = mensagem.replace(/e/gi, "enter").replace(/i/gi, "imes").replace(/a/gi, "ai").replace(/o/gi, "ober").replace(/u/gi, "ufat").replace(/[^a-z ]/gi,'');
       mensagemSaida.value = textoCodificado;
-
     }
   }
 }
@@ -54,13 +46,10 @@ function descriptografarMsg(mensagem) {
 
       alert("Apenas letras minúsculas, sem números ou caracteres especiais!");
       break;
-
     } else{
 
-      var textoDescodificado = mensagem;
-      textoDescodificado = mensagem.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u").replace(/[^a-z ]/gi,'');
+      var textoDescodificado = mensagem.replace(/enter/gi, "e").replace(/imes/gi, "i").replace(/ai/gi, "a").replace(/ober/gi, "o").replace(/ufat/gi, "u").replace(/[^a-z ]/gi,'');
       mensagemSaida.value = textoDescodificado;
-
     }
   }
 }
