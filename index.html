@@ -12,7 +12,7 @@
 
   <body>
     <header>
-      <section class="titulos">
+      <section class="titulos" role="banner">
         <div class="titulo-1">
           <h1>CRIPTÓGRAFO</h1>
         </div>
@@ -21,7 +21,7 @@
         </div>
       </section>
     </header>
-    <main>
+    <main role="main">
       <!--campo para texto que vai ser criptografado/descriptografado-->
       <div class="area-criptografia">
         <textarea class="mensagem" cols="40" rows="8" placeholder="Digite a sua mensagem aqui"></textarea>
@@ -36,13 +36,12 @@
       </div>
     </main>
     <footer>
-      <label for="dados-do-desenvolvedor">
-        Desenvolvedor:
-      <label>
-      <section class="dados" name="dados-do-desenvolvedor" id="dados-do-desenvolvedor">
-        <span class="dados" name="nome" id="nome">Rafael Chagas</span>
-        <label for="email">/e-mail: </label>
-        <span class="dados" name="email" id="email">rafaelcchagas@outlook.com</span>
+      <section class="dados" name="dados-do-desenvolvedor" id="dados-do-desenvolvedor" role="contentinfo">
+        <h3>Desenvolvedor</h3>
+        <ul>
+          <li class="copyright">Copyright © 2022</li>
+          <li class="dados" name="nome" id="nome">Rafael</li>
+          <li class="dados" name="email" id="email">/e-mail: rafaelcchagas@outlook.com</li>
       </section>
     </footer>
     <script src="js/criptografar.js"></script>
