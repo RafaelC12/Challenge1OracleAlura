@@ -151,14 +151,12 @@ footer {
 
   .cripto, .descripto {
     bottom: 335px;
-    width: 40%;
-    left: 24px;
+    width: 45%;
   }
 
-  .descripto {
-    width: 134px;
-    margin-left: 10px;
-  }
+.descripto{
+  float: right;
+}
 
   .copiar {
     position: relative;
