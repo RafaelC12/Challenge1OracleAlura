@@ -118,3 +118,52 @@ footer {
   text-align: right;
   background-color: inherit;
   margin: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    height: 180px;
+  }
+
+  .sub-titulo {
+    font-size: 26px;
+  }
+
+  .area-criptografia {
+    display: block;
+  }
+
+  .mensagem, .saida {
+    width: 100%;
+    height: 200px;
+    margin: 5px auto;
+    margin-bottom: 40px;
+  }
+
+  .saida {
+    margin-top: 20px;
+  }
+
+  .botoes {
+    position: absolute;
+    margin-left: 0 auto;
+  }
+
+  .cripto, .descripto {
+    bottom: 335px;
+    width: 40%;
+    left: 24px;
+  }
+
+  .descripto {
+    width: 134px;
+    margin-left: 10px;
+  }
+
+  .copiar {
+    position: relative;
+    bottom: 120px;
+    left: 0;
+    width: 100%;
+  }
+}
