@@ -33,6 +33,7 @@ header {
 textarea {
   resize: none;
   background: #fce0d2;
+  border-radius: 10px;
 }
 
 .area-criptografia {
@@ -81,6 +82,7 @@ textarea {
   cursor: pointer;
   position: relative;
   bottom: 85px;
+  border-radius: 10px;
 }
 
 .descripto{
@@ -94,6 +96,7 @@ textarea {
   position: relative;
   bottom: 85px;
   margin-left: 10px;
+  border-radius: 10px;
 }
 
 .copiar{
@@ -107,6 +110,7 @@ textarea {
   position:relative;
   left: 42%;
   bottom: 25px;
+  border-radius: 10px;
 }
 
 .botoes button:hover {
